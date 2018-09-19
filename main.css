@@ -1,0 +1,64 @@
+/* 4-columns */
+
+body {
+  
+}     
+
+.navi {
+    /* background-color: plum; */
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.left {
+
+}
+  
+.container {
+    margin: auto;
+    width: 1275px;
+    margin-top: 50px;
+    /* flex-direction: column;
+    justify-content: center;
+    justify-content: space-around; */
+}
+
+div {
+    margin-bottom: 50px;
+}
+
+
+.xbox {
+    height: 477px;
+    background-color: lime;
+}
+
+.container2 {
+    height: 166.75px;
+    display: flex; 
+    justify-content: space-between;
+}
+
+.latinoculture {
+    width: 1275px;
+    height: 477px;
+    background-color: yellow;
+}
+
+/* how to stretch across screen? */
+footer {
+    width: 100%;
+    height: 500px;
+    background-color: lightgrey;
+}
+
+/* 2-columns */
+@media screen and (max-width: 540px) {
+    container {
+        width: 50%;
+    }
+
+}
+
+
